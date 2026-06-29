@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TennisTraining.Core\TennisTraining.Core.csproj" />
+    <ProjectReference Include="..\TennisTraining.Vision\TennisTraining.Vision.csproj" />
+    <ProjectReference Include="..\TennisTraining.Launcher\TennisTraining.Launcher.csproj" />
+    <ProjectReference Include="..\TennisTraining.Projection\TennisTraining.Projection.csproj" />
+    <ProjectReference Include="..\TennisTraining.Data\TennisTraining.Data.csproj" />
+    <ProjectReference Include="..\TennisTraining.Coordination\TennisTraining.Coordination.csproj" />
+  </ItemGroup>
+
+</Project>

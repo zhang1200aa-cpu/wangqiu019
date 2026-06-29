@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TennisTraining.Core\TennisTraining.Core.csproj" />
+    <ProjectReference Include="..\TennisTraining.Vision\TennisTraining.Vision.csproj" />
+    <ProjectReference Include="..\TennisTraining.Launcher\TennisTraining.Launcher.csproj" />
+    <ProjectReference Include="..\TennisTraining.Projection\TennisTraining.Projection.csproj" />
+    <ProjectReference Include="..\TennisTraining.Data\TennisTraining.Data.csproj" />
+  </ItemGroup>
+
+</Project>

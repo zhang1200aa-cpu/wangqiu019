@@ -1,0 +1,19 @@
+# .NET 构建产物
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+
+# IDE
+.vs/
+.vscode/
+*.sln.docstates
+
+# NuGet 包缓存
+packages/
+*.nupkg
+
+# 运行时/日志
+*.log
+*.tmp
